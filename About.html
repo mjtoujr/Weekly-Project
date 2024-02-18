@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About This Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Header with title, followed by brief sentence-->
@@ -15,36 +16,39 @@
     </section>
     <!--A table, containing basic contact info for three people.-->
     <section>
-        <table border="1">
-            <tr>
-                <th>NAME</th>
-                <th>OCCUPATION</th>
-                <th>PHONE CONTACT</th>
-            </tr>
-            <tr>
-                <td>Richard Greggs</td>
-                <td>Geologist</td>
-                <td>(791) 689-7121</td>
-            </tr>
-            <tr>
-                <td>Susan Phillips</td>
-                <td>Photographer</td>
-                <td>(313) 298-4561</td>
-            </tr>
-            <tr>
-                <td>Sam Jenkins</td>
-                <td>Environmental Engineer</td>
-                <td>(810) 462-9910</td>
-            </tr>
-        </table>
+        <div class="about-table-div">
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>OCCUPATION</th>
+                    <th>PHONE CONTACT</th>
+                </tr>
+                <tr>
+                    <td>Richard Greggs</td>
+                    <td>Geologist</td>
+                    <td>(791) 689-7121</td>
+                </tr>
+                <tr>
+                    <td>Susan Phillips</td>
+                    <td>Photographer</td>
+                    <td>(313) 298-4561</td>
+                </tr>
+                <tr>
+                    <td>Sam Jenkins</td>
+                    <td>Environmental Engineer</td>
+                    <td>(810) 462-9910</td>
+                </tr>
+            </table>
+        </div>
     </section>
     <hr>
     <Footer>
-        <!--At the bottom, Links to all three pages-->
-        <h4>Page Links</h4>
-        <a href="Index.html">Home</a>
-        <a href="About.html">About Us</a>
-        <a href="Contact.html">Contact Us</a>
+        <div class="links-div">
+            <h4>Page Links</h4>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="Contact.html">Contact Us</a>
+        </div>
     </Footer>
 </body>
 </html>

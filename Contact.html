@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
@@ -14,37 +15,40 @@
     </section>
 
     <section>
-        <Form>
-            <p>Name:</p>
-            <input type="text" name="firstname" placeholder="First Name">
-            <input type="text" name="midname" placeholder="Middle Name (May Be Blank)">
-            <input type="text" name="lastname" placeholder="Last Name">
-            <br />
-            <p>Age:</p>
-            <input type="radio" name="Age" value="18-25">
-            <label for="18-25">18-25</label>
-            <input type="radio" name="Age" value="26-40">
-            <label for="18-25">26-40</label>
-            <input type="radio" name="Age" value="41-60">
-            <label for="18-25">41-60</label>
-            <input type="radio" name="Age" value="61+">
-            <label for="18-25">61+</label>
-            <br />
-            <p>Email Address:</p>
-            <input type="text" name="email" placeholder="Email">
-            <br />
-            <input type="submit" value="Thank You!">
-        </Form>
-        <P>Thanks for signing up! You'll be hearing from us soon!</P>
+        <div class="contact-div">
+            <Form>
+                <p>Name:</p>
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="midname" placeholder="Middle Name (May Be Blank)">
+                <input type="text" name="lastname" placeholder="Last Name">
+                <br />
+                <p>Age:</p>
+                <input type="radio" name="Age" value="18-25">
+                <label for="18-25">18-25</label>
+                <input type="radio" name="Age" value="26-40">
+                <label for="18-25">26-40</label>
+                <input type="radio" name="Age" value="41-60">
+                <label for="18-25">41-60</label>
+                <input type="radio" name="Age" value="61+">
+                <label for="18-25">61+</label>
+                <br />
+                <p>Email Address:</p>
+                <input type="text" name="email" placeholder="Email">
+                <br />
+                <input type="submit" value="Thank You!">
+            </Form>
+            <P>Thanks for signing up! You'll be hearing from us soon!</P>
+        </div>
     </section>
 
     <hr>
     <Footer>
-        <!--At the bottom, Links to all three pages-->
-        <h4>Page Links</h4>
-        <a href="Index.html">Home</a>
-        <a href="About.html">About Us</a>
-        <a href="Contact.html">Contact Us</a>
+        <div class="links-div">
+            <h4>Page Links</h4>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="Contact.html">Contact Us</a>
+        </div>
     </Footer>
 </body>
 </html>
